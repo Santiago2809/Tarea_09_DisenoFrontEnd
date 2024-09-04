@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tarea 09</title>
+    <script type="module" src="index.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1 class="title">Calculadora basica</h1>
+        <section class="card">
+            <form class="card__form">
+                <div class="card__form-input">
+                    <label for="n1">
+                        <p>Ingresa un numero</p>
+                    </label>
+                    <input id="n1" name="n1" type="number" step="any" placeholder="25">
+                </div>
+                <div class="card__form-input">
+                    <label for="n2">
+                        <p>Ingresa un numero</p>
+                    </label>
+                    <input id="n2" name="n2" type="number" step="any" placeholder="8">
+                </div>
+                <h2 id="resultado" class="hidden"></h2>
+                <h2 id="error" class="hidden"></h2>
+                <div class="card__form-buttons">
+                    <button id="suma">Suma</button>
+                    <button id="resta">Resta</button>
+                    <button id="multiplicacion">Multiplicacion</button>
+                    <button id="division">División</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
